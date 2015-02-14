@@ -1,0 +1,497 @@
+@CHARSET "UTF-8";
+
+/**
+ * MAKE ALL CUSTOM CHANGES TO THE THEME HERE
+ *
+ * NOTE: changes should not be made in style.css because the ordering of
+ * drupal_add_css() places these directives before all others, when custom
+ * theming should be placed after all others.
+ */
+
+body {
+  background: #000;
+}
+
+#squeeze {
+  padding: 0 0;
+}
+
+#container {
+  margin: 0 0;
+}
+
+#page {
+  width: 950px;
+  margin: 0 auto;
+  background: transparent;
+  color: #FFF;
+}
+
+tr.odd, tr.even {
+  color: #000;
+}
+
+img#logo {
+  margin: 10px 0 0 0;
+}
+
+#logo-title {
+  margin: 0 0 -20px 0;
+}
+
+#main .node .content {
+  color: #fff;
+}
+
+input.form-submit {
+  border: 1px solid #999;
+  background: #000;
+  color: #CCC;
+}
+
+#mcow-send-form input, #mcow-send-form textarea {
+  font-size: 12px;
+  border: 1px solid grey;
+}
+
+/* images below main section on homepage */
+.view-content-featured-images div.item-list ul li {
+  display: block;
+  float: left;
+  margin-right: 15px;
+  border: 1px solid #a7681f;
+  padding: 5px;
+  text-align: center;
+}
+
+.view-content-featured-images div.item-list ul li img {
+  display: inline;
+}
+
+.view-content-featured-images div.item-list ul li a {
+  font-size: x-small;
+  font-weight: bold;
+}
+
+/* upload video block on homepage */
+#block-block-8 {
+  padding: 0;
+}
+
+#block-block-8 .content {
+  width: 150px;
+  height: 40px;
+  border: 1px solid #bbb;
+  text-align: center;
+  padding: 15px 5px;
+}
+
+#block-block-8 .content a {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+
+#primary {
+  border-bottom: none;
+}
+
+#footer {
+  background: none;
+  color: #999;
+  margin: 10px 0 0 0;
+  border: 1px solid #A7681F;
+  border-width: 1px 0 0 0;
+}
+
+#footer a {
+  color: #a7681f;
+  border: none;
+}
+
+#footer-wrapper {
+  margin: 0;
+}
+
+#footer table {
+  width: 450px;
+  margin: 0 auto;
+}
+
+#footer table tbody {
+  border: none;
+  line-height: 1.3em;
+}
+
+div.menu {
+  margin: 0 0;
+}
+
+.block li.leaf, ul.menu li.leaf, .view-content-newest-videos ul li {
+  margin: 0 0 0 15px;
+}
+
+.view-content-newest-videos ul {
+  font-size: 92%;
+  margin-left: 13px;
+}
+
+/* headers */
+h1, h2, h3, h4, h5 {
+  color: #a7681f;
+  text-transform: uppercase;
+}
+
+.node h1.title, .node h2.title {
+  font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+  color: #a7681f;
+  margin: 5px 0 0 0;
+}
+
+h1.title, h2.title {
+  color: #a7681f;
+}
+
+.node h1.title a, .node h2.title a {
+  color: #a7681f;
+}
+
+h1.title a, h1.title a:hover {
+  font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+  font-size: 125%;
+}
+
+h2 {
+  font-size: 120%;
+}
+
+h3 {
+  font-size: 110%;
+}
+
+/* links */
+a, a:link, a:visited {
+  color: #a7681f;
+}
+
+a:hover, h1.title a:hover, h2.title a:hover {
+  color: #6EBB6C;
+  text-decoration: none;
+  /*border-bottom: 1px solid #444;*/
+}
+
+#spread-content .links a:hover {
+  border-bottom: none;
+}
+
+/* removes the dotted outline on links in firefox */
+a {
+  outline: none;
+}
+
+/* placeholder graphic */
+.home_left_placeholder {
+  width: 80px;
+  height: 60px;
+  border: 1px solid #a7681f;
+  background: #EEE;
+}
+
+.placeholder {
+  border: 1px solid #a7681f;
+  background: #EEE;
+}
+
+.thumbnail {
+  width: 80px;
+  height: 60px;
+}
+
+/* fivestar widget styles */
+div.fivestar-widget, form.fivestar-widget label {
+  float: left;
+  margin-right: 4px;
+}
+
+form.fivestar-widget div.form-item {
+  margin-top: 0;
+}
+
+form.fivestar-widget .clear-block {
+  background: #fff;
+  border: 2px outset #fff;
+  clear: none;
+  padding: 1px 1px 0;
+}
+
+form.fivestar-widget div.fivestar-summary {
+  white-space: nowrap;
+}
+
+#primary a {
+  background: transparent;
+  border: none;
+  font: bold 16px "Arial Narrow", Arial, Helvetica, sans-serif;
+  color: #a7681f;
+  margin: 0;
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+
+#primary a:hover,
+#secondary a:hover,
+ul.secondary a.active {
+  color: #6EBB6C;
+}
+
+#primary {
+  float: right;
+  border-bottom: 1px solid #a7681f;
+  position: relative;
+  top: -10px;
+}
+
+#main .node.ntype-video {
+  margin-top: 5px;
+}
+
+#main .node.ntype-content-movie div.links {
+  background: none;
+}
+
+#main .node.ntype-video div.content {
+  float: left;
+  padding-top: 5px;
+}
+
+/* unpublished node styles */
+.node-unpublished {
+  background: none;
+}
+
+#main .node.ntype-video div.content div.pending {
+  padding: 75px 10px;
+  width: 400px;
+  margin: 10px auto;
+  height: 100px;
+  line-height: 1.3em;
+  text-align: center;
+  font-size: 24px;
+  border: 2px solid #333;
+  background: #111;
+}
+
+#main .node.ntype-video div.content .messages {
+  margin: 0 0;
+}
+
+#main .node.ntype-video div.mediaframe {
+  float: left;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  width: 360px;
+}
+
+.container-mediaframe {
+  margin: 0;
+  padding: 0;
+}
+
+#primary a.active {
+  color: #6EBB6C;
+}
+
+ul.primary {
+  margin: 7px 0 3px 0;
+  border-bottom: 1px solid #444;
+}
+
+ul.primary li a,
+ul.primary li.active a {
+  border-color: #A7681F;
+}
+
+ul.primary li a:hover {
+  color: #000;
+  border-color: #A7681F;
+}
+
+/* ---------------------- */
+
+ul.secondary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+ul.secondary li {
+  border: 1px solid #333;
+  border-width: 1px 1px 0 0;
+  padding: 0 0.75em;
+  margin: 0;
+  background: #111;
+}
+
+ul.secondary li.tabs-selected {
+  background: #222;
+}
+
+.anchors .tabs-selected a {
+  padding: 0;
+}
+
+.anchors a {
+  border: 0;
+  text-transform: uppercase;
+  padding-bottom: 2px;
+}
+
+.anchors .tabs-selected a,
+.anchors a:hover,
+.anchors a:focus,
+.anchors a:active,
+.fragment {
+  background: none;
+  color: #FFA000;
+}
+
+.fragment {
+  padding: 5px 10px 10px 10px;
+  background: #000;
+  border: 1px solid #333;
+}
+
+
+div.mediaframe #edit-yemail,
+div.mediaframe #edit-yname,
+div.mediaframe #edit-recipients,
+div.mediaframe #edit-message,
+div.mediaframe #edit-first-name,
+div.mediaframe #edit-last-name,
+div.mediaframe #edit-email,
+div.mediaframe #edit-clickbox1,
+div.mediaframe #edit-clickbox2 {
+  width: 250px;
+}
+
+div.mediaframe #edit-recipients,
+div.mediaframe #edit-message {
+  height: 20px;
+  width: 261px;
+}
+
+/* service links */
+ul.links li {
+  white-space: nowrap;
+  border: none;
+  padding: 0;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+ul.links li img {
+  vertical-align: middle;
+  margin: 2px 0;
+}
+
+.clickbox {
+  color: #a7681f;
+}
+
+.clear-block {
+  clear: both;
+}
+
+/* search box theme */
+
+#search {
+  top: 35px;
+}
+
+#search .form-text, #user-login-form .form-text {
+  border-color: #a7681f;
+}
+
+#search .button, #search .form-submit,
+#user-login-form .button,
+#user-login-form .form-submit,
+.breadcrumb form .form-submit {
+  border: 1px solid #a7681f;
+  background: #DEC45B;
+  color: #FFF;
+}
+
+.view-image-thumbnail .view-data-field-thumbnail-fid {
+  float: left;
+  margin-right: 20px;
+}
+
+/* signup form in nav bar */
+#mcow-small-signup-form .form-item {
+  display: inline;
+  padding-left: 15px;
+}
+
+#mcow-small-signup-form input {
+  margin-bottom: 2px;
+  background: #fde2c4;
+  color: #422400;
+  border: none;
+  padding: 3px;
+  height: 10px;
+}
+
+#mcow-small-signup-form .form-item label {
+  font: bold 16px "Arial Narrow", Arial, sans-serif;
+  display: inline;
+}
+
+#mcow-small-signup-form #edit-submit {
+  border: none;
+  background: #ae8d6f url(../images/button-previews/index.jpg) no-repeat 0% 0%;
+  font: bold 12px "Arial Narrow", Arial, sans-serif;
+  color: #000;
+  height: 16px;
+  display: inline;
+  padding: 0;
+  margin: 0 0 1px 0;
+}
+
+#mcow-small-signup-form #edit-submit:hover {
+  background-position: 0% -16px;
+}
+
+#block-mcow-small_signup_form .blockinner .content {
+  margin: 0;
+}
+
+/* player outer frame */
+.player-frame {
+  padding: 30px;
+  width: 480px;
+  height: 400px;
+  background: #000 url(../images/player-frame/index.png) no-repeat scroll;
+}
+
+.video-content {
+  margin-left: 20px;
+}
+
+div.status {
+  color: #000;
+}
+
+/* fix fieldset images on dark pages */
+
+html.js fieldset.collapsible legend a {
+  background-image: url(../images/menu-expanded/index.png);
+}
+
+html.js fieldset.collapsed legend a {
+  background-image: url(../images/menu-collapsed/index.png);
+}
+
+/* move the "newest video" block on the homepage down a bit */
+#block-menu-170 {
+  margin-top: 20px;
+}
