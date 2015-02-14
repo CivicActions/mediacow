@@ -1,0 +1,93 @@
+/*   $Id: icons.css,v 1.2 2006/10/23 04:36:43 zirafa Exp $ */
+
+/**
+ * WARNING - DO NOT CHANGE THIS FILE
+ * MAKE ALL CUSTOM CHANGES TO custom.css
+ *
+ * NOTE: changes should not be made here because the ordering of
+ * drupal_add_css() places these directives before all others, when custom
+ * theming should be placed after all others.
+ */
+
+/**
+*   ICON STYLES 
+*
+*  Puts all the references to icon images in one place.
+*/
+
+/* Leaf, collapsed, and expanded icons used for navigation*/
+.block li.leaf, ul.menu li.leaf {
+  list-style-image: url(../images/menu-leaf/index.gif);
+}
+
+.block li.collapsed, ul.menu li.collapsed {
+  list-style-image: url(../images/menu-collapsed/index.gif);
+}
+
+.block li.expanded, ul.menu li.expanded {
+  list-style-image: url(../images/menu-expanded/index.gif);
+}
+
+.block li a.active {
+  text-decoration: none;
+}
+
+.block ul li {
+  list-style-image: url(../images/blue_bullet/index.gif);
+}
+
+/* Forum posts and recent blog posts */
+.block-forum ul li {
+  list-style-type:none;
+  list-style-image: none;
+  margin:0;
+  padding:5px 0px 5px 20px;
+  background-image: url(../images/page_text/index.gif);
+  background-repeat: no-repeat;
+  background-position: 0 .5em;
+}
+
+.block-blog ul li {
+  list-style-type:none;
+  list-style-image: none;
+  margin:0;
+  padding:5px 0px 5px 20px;
+  background-image: url(../images/blog/index.png);
+  background-repeat: no-repeat;
+  background-position: 0 .7em;
+}
+
+/* Who's new & Who's online*/
+#block-user-2 ul li, #block-user-3 ul li {
+  list-style-type:none;
+  list-style-image: none;
+  margin:0;
+  padding:5px 0px 5px 20px;
+  background-image: url(../images/icon_user/index.gif);
+  background-repeat: no-repeat;
+  background-position: 0 .5em;
+}
+
+/* Status and Error icons */
+div.status {
+  background-image: url(../images/dialog-information_i/index.gif);
+  background-repeat: no-repeat;
+  background-position: .5em 50%;
+}
+
+div.error {
+  background-image: url(../images/dialog-warning/index.gif);
+  background-repeat: no-repeat;
+  background-position: .5em 50%;
+}
+
+/* Node links such as add comments, User's blog, etc */
+#main .node div.links {
+  padding:5px 0px 5px 13px;
+  background: url(../images/links/index.gif) no-repeat 0 .93em;
+}
+
+/* Administration panel */
+.admin-panel h3{
+  background: #6191C5 url(../images/cog/index.png) no-repeat .5em .5em;
+}
